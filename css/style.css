@@ -1,0 +1,85 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+4:regular,700,900&display=swap');
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body{
+	font-family: "Source Serif 4";
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+	width: 840px;
+	margin: 0 auto;
+}
+
+.title{
+	font-size: 46px;
+	color: blueviolet;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.par1{
+	max-width: 450px;
+	background-image: url("../img/ZiClJf-1920w.jpg");
+	border: 5px solid #fff;
+	font-size: 30px;
+	max-height: 340px;
+	overflow: scroll;
+}
+
+.par2{
+	margin-left: auto;
+	max-width: 340px;
+	outline: 3px solid cyan;
+	padding: 15px;
+	background: burlywood;
+}
+
+.lorum{
+	background: #fff;
+	border: 2px solid #000;
+	border-radius: 10%;
+	padding: 10px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.par3{
+	border: 3px dashed navajowhite;
+	color: black;
+	padding: 10px;
+	background: url("../img/twitter.jpg");
+	background-size: 50px auto;
+	margin-bottom: 40px;
+}
+
+.par4{
+	max-width: 300px;
+	font-size: 30px;
+	background: url("../img/house.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	color: aliceblue;
+	margin: 0 auto;
+	border: 3px solid aliceblue;
+	padding: 20px;
+}
+
+.par5{
+	border: 10px solid salmon;
+	margin-top: 40px;
+	font-size: 30px;
+	padding: 15px;
+	background: url("../img/image.png");
+	background-position: 50% 50%;
+	color: floralwhite;
+}
+
